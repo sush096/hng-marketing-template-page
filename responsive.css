@@ -1,10 +1,18 @@
 @media (min-width: 100px) and (max-width: 880px){
 
+    *{
+        overflow-x: hidden;
+    }
+
 	body{
 		margin: 0px;
 		padding: 0px;
-		/*overflow-x: hidden;*/
+		overflow-x: hidden;
 	}
+
+    img{
+        /*width: 100%;*/
+    }
 
 	.row{
 		justify-content: center;
@@ -141,6 +149,7 @@
     width: 85%;
      height: 50%; 
     margin-right: 7%;
+    margin-left: 1%;
 }
 
 .content img {
@@ -233,6 +242,63 @@
     text-align: center;
 }
 
+.node::before {
+ content: "";
+}
+
+.grid-pic{
+	height: 35vh;
+    text-align: center;
+}
+
+.grid-pic select{
+	background-color: transparent;
+	border: 1px solid #fff;
+    color: #fff;
+    width: 80%;
+    height: 50px;
+}
+
+.grid-pic option{
+    background-color: #F34A00;
+    border: 1px solid #fff;
+    color: #000;
+    font-weight: 600;
+    width: 80%;
+}
+
+.us img{
+    width: 80%;
+}
+
+.card {
+    width: 80%;
+    height: 50vh;
+    }
+
+    .card::before{
+    content: url(img/quote.png);
+    width: 100px;
+    margin-left: 80%;
+    margin-top: -8%;
+}
+
+.review img{
+    width: 50%;
+}
+
+.flex{
+    text-align: center !important;
+}
+
+.company{
+    position: relative;
+    width: 100%;
+}
+
+.map img{
+    width: 100% !important;
+}
 
 }
 
@@ -251,5 +317,14 @@
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+
+  .container{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .column img{
+    width: 100%;
+    margin: 1%;
   }
 }

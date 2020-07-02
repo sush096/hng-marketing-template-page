@@ -2,6 +2,9 @@
 	padding:5% 0% 10% 0% !important;
 }
 
+section{
+	clear: both;
+}
 
 #header{
 	background-color: #FCF4F4;
@@ -14,12 +17,14 @@
 }
 
 #section1 h1{
-font-style: normal;
-font-weight: bold;
-font-size: 4.688rem;
-line-height: 112px;
-color: #1C1B1E;
+	font-style: normal;
+    font-weight: bold;
+    font-size: 4.688rem;
+    width: 400px;
+    line-height: 66px;
+    color: #1C1B1E;
 }
+
 
 #intro{
 	width: 602px;
@@ -40,10 +45,10 @@ color: #1C1B1E;
     padding: 17px 36px;
 }
 
-/*outline:hover{
-    background-color: #F34A00;
-    color: #FFF;
-}*/
+.outline:hover{
+    background-color: #fff;
+    color: #000;
+}
 
 .btn-orange{
 	font-size: 1.563rem;
@@ -56,12 +61,12 @@ color: #1C1B1E;
     margin-right: 10px;
 }
 
-/*.btn-orange:hover{
+.btn-orange:hover{
 	border:1px solid #F34A00;
     color: #F34A00;
     background-color: #fff;
 }
-*/
+
 #orange{
     width: 554px;
     height: 91.563rem;
@@ -239,7 +244,7 @@ color: #F34A00;
 
 .btn-dark:hover{
 	background-color:#F34A00;
-	color:#000;
+	color:#fff;
 	border-radius: 1.563rem;
 	border:none;
 }
@@ -421,10 +426,14 @@ color: #1C1B1E;
 
 }
 
-.flex{
+.flex-box{
 	margin-left: 33%;
 	margin-top: 10%;
 	cursor: pointer;
+}
+
+.flex button{
+	border-radius: 0px !important;
 }
 
 .carouselExampleControls{
